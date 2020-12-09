@@ -187,6 +187,10 @@ class Payment extends MoipResource
         $payment->data->amount = new stdClass();
         $payment->data->amount->total = $this->getIfSet('total', $response->amount);
         $payment->data->amount->currency = $this->getIfSet('currency', $response->amount);
+        $payment->data->amount->gross = $this->getIfSet('gross', $response->amount);
+        $payment->data->amount->fees = $this->getIfSet('fees', $response->amount);
+        $payment->data->amount->refunds = $this->getIfSet('refunds', $response->amount);
+        $payment->data->amount->liquid = $this->getIfSet('liquid', $response->amount);
         $payment->data->installmentCount = $this->getIfSet('installmentCount', $response);
         $payment->data->fundingInstrument = $this->getIfSet('fundingInstrument', $response);
         $payment->data->payments = $this->getIfSet('payments', $response);
