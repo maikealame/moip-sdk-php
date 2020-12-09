@@ -1,6 +1,8 @@
 <img src="https://gist.githubusercontent.com/joaolucasl/00f53024cecf16410d5c3212aae92c17/raw/1789a2131ee389aeb44e3a9d5333f59cfeebc089/moip-icon.png" align="right" />
 
-# MoIP v2 PHP client SDK
+# MoIP v2 PHP client SDK [FORK]
+> **O repositório atual não está sendo mantido desde 2018, aqui você poderá contribuir com a atualização pela documentação oficial atualmente**
+---
 > O jeito mais simples e rápido de integrar o Moip a sua aplicação PHP
 
 > Estado atual do sdk
