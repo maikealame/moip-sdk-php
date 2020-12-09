@@ -1,13 +1,13 @@
 {
-    "name": "moip/moip-sdk-php",
+    "name": "maikealame/moip-sdk-php",
     "description": "Cliente em PHP para integração server-side com APIs Moip v2",
     "keywords": ["libraries", "moip", "intermediary", "checkout", "marketplace"],
     "homepage": "http://dev.moip.com.br",
     "license": "MIT",
     "type": "libraries",
     "support": {
-        "issues": "https://github.com/moip/moip-sdk-php/issues",
-        "source": "https://github.com/moip/moip-sdk-php"
+        "issues": "https://github.com/maikealame/moip-sdk-php/issues",
+        "source": "https://github.com/maikealame/moip-sdk-php"
     },
     "authors": [
         {
