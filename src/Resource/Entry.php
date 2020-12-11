@@ -50,6 +50,18 @@ class Entry extends MoipResource
         if (isset($response->details)) {
             $entry->data->details = $this->getIfSet('details', $response);
         }
+        
+        if (isset($response->description)) {
+            $entry->data->description = $this->getIfSet('description', $response);
+        }
+        
+        if (isset($response->scheduledFor)) {
+            $entry->data->scheduledFor = $this->getIfSet('scheduledFor', $response);
+        }
+        
+        if (isset($response->occurrence)) {
+            $entry->data->occurrence = $this->getIfSet('occurrence', $response);
+        }
 
         if (isset($response->{'parent'}) && isset($response->{'parent'}->payments)) {
             $payments = new Payment($entry->moip);
